@@ -108,5 +108,45 @@ comportamento coeso, e não para a simples navegação.
 24. Como você remodelaria os casos de uso de consultar temas do book, treinar e enfrentar um vilão para expressar objetivos do jogador? Desenhe um diagrama e justifique as associações e eventuais relações «include» ou «extend», sem usá-las apenas para indicar ordem de navegação.
  <img width="624" height="291" alt="Image" src="https://github.com/user-attachments/assets/d8898c1a-fe9f-4393-a74a-5398bed5dcae" />
 
+25. Como um diagrama de atividades pode representar uma batalha do U.C. Battle? Modele seleção de resposta, atualização dos pontos de vida, solicitação de dica e encerramento, com decisões e guardas coerentes com as regras descritas
+
+26. Como você representaria o ciclo de uma batalha em um diagrama de estados? Defina estados, eventos e guardas para início, espera por resposta, vitória, derrota e rendição, distinguindo eventos de condições.
+Estados: Preparando, Em batalha (com Aguardando resposta, Exibindo dica e Avaliando resposta dentro),
+Vitória, Derrota e Rendição. Os três últimos são finais.
+Eventos (o que acontece e dispara a transição): iniciarBatalha, batalhaPronta, pedirDica, fecharDica,
+responder(opção), respostaProcessada e renderSe.
+Guardas (condições avaliadas quando o evento ocorre): [dicas &gt; 0], [vida do vilão ≤ 0], [vida do jogador ≤
+0], [os dois com vida &gt; 0] e [jogador confirmou].
+Ideia central: vitória e derrota não são eventos, e sim resultado de guardas sobre a vida, avaliadas depois
+de processar a resposta. A rendição sai de “Em batalha” inteiro, valendo em qualquer subestado.
+
+
+27. Como você elaboraria um diagrama de sequência para o cenário em que o jogador acerta uma charada? Proponha participantes e mensagens para registrar a resposta, verificar o acerto, atualizar a vida do vilão e apresentar o resultado; identifique os elementos de projeto que não estão definidos no artigo.
+
+28. Como você construiria uma matriz de rastreabilidade para quatro requisitos do jogo, incluindo dois de acessibilidade? Relacione cada requisito à origem no artigo, ao caso de uso ou elemento do modelo pertinente e a um teste de aceitação.
+
+29. Até que ponto os questionários aplicados aos 26 estudantes demonstram atendimento aos requisitos de acessibilidade? Diferencie percepção dos participantes, verificação técnica e participação de pessoas com deficiência visual; proponha verificações adicionais sem presumir que esse perfil foi confirmado na amostra.
+Três coisas distintas:
+Percepção dos participantes: opinião subjetiva, sujeita a viés de cortesia e de familiaridade. Com 26
+estudantes, é indicativa, sem poder estatístico para generalizar.
+Verificação técnica: conferir objetivamente se o sistema cumpre critérios verificáveis (contraste,
+compatibilidade com leitor de tela, navegação por teclado, texto alternativo). Questionário nenhum
+substitui isso.
+Participação de pessoas com deficiência visual: só quem usa tecnologia assistiva no dia a dia revela
+barreiras reais. Opinião de estudantes videntes sobre acessibilidade não equivale a isso.
+Verificações adicionais:
+Auditoria técnica com checklist (contraste, rótulos, ordem de foco, alternativas textuais).
+Testes com leitores de cumprindo tarefas reais, como responder uma charada e usar a dica.
+Teste de navegação só por teclado, sem mouse.
+Teste de usabilidade com pessoas com deficiência visual recrutadas de propósito, medindo taxa de
+conclusão de tarefas, tempo e erros, além da satisfação.
+Revisão por especialista em acessibilidade.
+
+30. Como você organizaria uma revisão final de consistência entre requisitos, regras de negócio, casos de uso e demais modelos? Apresente um exemplo de inconsistência que procuraria e analise o impacto de uma mudança hipotética que permitisse usar a habilidade duas vezes por batalha.
+Inventário: listar os artefatos (requisitos, regras de negócio, casos de uso, atividades, estados, sequência,matriz) com identificadores estáveis.Checagem cruzada por pares: requisito regra, regra caso de uso, caso de uso diagramascomportamentais, requisito teste. A matriz de rastreabilidade (28) é o instrumento principal.Verificar vocabulário: o mesmo conceito com o mesmo nome em todo lugar (ex.: “habilidade” vs.“poder”). Verificar completude: regra sem caso de uso, requisito sem teste, estado sem saída. Registrar achados com severidade e responsável, corrigir na fonte e propagar para os demais artefatos.
+
+
+
+
  
 
