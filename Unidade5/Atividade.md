@@ -106,4 +106,7 @@ rico, como “Encerrar batalha e registrar resultado”. Nesse caso o «include�
 comportamento coeso, e não para a simples navegação.
 
 24. Como você remodelaria os casos de uso de consultar temas do book, treinar e enfrentar um vilão para expressar objetivos do jogador? Desenhe um diagrama e justifique as associações e eventuais relações «include» ou «extend», sem usá-las apenas para indicar ordem de navegação.
+ <img width="624" height="291" alt="Image" src="https://github.com/user-attachments/assets/d8898c1a-fe9f-4393-a74a-5398bed5dcae" />
+
+ 
 
