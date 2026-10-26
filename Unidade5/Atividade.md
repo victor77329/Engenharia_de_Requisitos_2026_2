@@ -126,6 +126,7 @@ de processar a resposta. A rendição sai de “Em batalha” inteiro, valendo e
 <img width="632" height="385" alt="Image" src="https://github.com/user-attachments/assets/489d2d05-0529-4f91-b984-4f81f426686f" />
 
 28. Como você construiria uma matriz de rastreabilidade para quatro requisitos do jogo, incluindo dois de acessibilidade? Relacione cada requisito à origem no artigo, ao caso de uso ou elemento do modelo pertinente e a um teste de aceitação.
+<img width="659" height="253" alt="Image" src="https://github.com/user-attachments/assets/120bf039-11aa-4c9e-a5d7-e19d8d10476b" />
 
 29. Até que ponto os questionários aplicados aos 26 estudantes demonstram atendimento aos requisitos de acessibilidade? Diferencie percepção dos participantes, verificação técnica e participação de pessoas com deficiência visual; proponha verificações adicionais sem presumir que esse perfil foi confirmado na amostra.
 Três coisas distintas:
