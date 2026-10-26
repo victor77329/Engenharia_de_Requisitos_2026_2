@@ -109,6 +109,7 @@ comportamento coeso, e não para a simples navegação.
  <img width="624" height="291" alt="Image" src="https://github.com/user-attachments/assets/d8898c1a-fe9f-4393-a74a-5398bed5dcae" />
 
 25. Como um diagrama de atividades pode representar uma batalha do U.C. Battle? Modele seleção de resposta, atualização dos pontos de vida, solicitação de dica e encerramento, com decisões e guardas coerentes com as regras descritas
+<img width="497" height="389" alt="Image" src="https://github.com/user-attachments/assets/854d3c11-653f-475b-8636-452632cdca56" />
 
 26. Como você representaria o ciclo de uma batalha em um diagrama de estados? Defina estados, eventos e guardas para início, espera por resposta, vitória, derrota e rendição, distinguindo eventos de condições.
 Estados: Preparando, Em batalha (com Aguardando resposta, Exibindo dica e Avaliando resposta dentro),
