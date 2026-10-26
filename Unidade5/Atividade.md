@@ -123,6 +123,7 @@ de processar a resposta. A rendição sai de “Em batalha” inteiro, valendo e
 
 
 27. Como você elaboraria um diagrama de sequência para o cenário em que o jogador acerta uma charada? Proponha participantes e mensagens para registrar a resposta, verificar o acerto, atualizar a vida do vilão e apresentar o resultado; identifique os elementos de projeto que não estão definidos no artigo.
+<img width="632" height="385" alt="Image" src="https://github.com/user-attachments/assets/489d2d05-0529-4f91-b984-4f81f426686f" />
 
 28. Como você construiria uma matriz de rastreabilidade para quatro requisitos do jogo, incluindo dois de acessibilidade? Relacione cada requisito à origem no artigo, ao caso de uso ou elemento do modelo pertinente e a um teste de aceitação.
 
