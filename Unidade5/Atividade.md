@@ -1,8 +1,8 @@
-Perguntas sobre especificação de requisitos e modelagem
+# Perguntas sobre especificação de requisitos e modelagem
 
-Estudo do artigo Um Jogo Acessível para o Ensino de UML
+## Estudo do artigo Um Jogo Acessível para o Ensino de UML
 
-Estudante: Victor Gabriel Madeiro Brito Marques  Turma: B
+## Estudante: Victor Gabriel Madeiro Brito Marques  Turma: B
 
 Orientações: responda às 30 questões com base no artigo de Irvin Ken Xavier Tavares e Maria Amelia Eliseo. A atividade pode ser realizada em equipe. Fundamente as análises nas seções, tabelas ou figuras pertinentes. Nas atividades de especificação e modelagem, diferencie evidências do artigo, inferências e propostas suas. Registre as respostas e os diagramas em documento separado.
 Análise do problema e elicitação
